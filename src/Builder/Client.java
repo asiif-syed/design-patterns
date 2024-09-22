@@ -1,7 +1,9 @@
 package Builder;
 
 import Singleton.Singleton;
-
+// When we want to do the validation before creating the object
+// When there are too many properties
+// When there are too many representations of an object
 public class Client {
     public static void main(String[] args) {
         Student s = Student.getBuilder()
