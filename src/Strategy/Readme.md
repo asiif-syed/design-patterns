@@ -29,3 +29,10 @@ class ShoppingCart{
     }
 }
 ```
+
+## Simple Analogy:
+- Think of a TV remote control:
+
+- You have buttons for different channels (like different strategies).
+- When you want to watch a specific channel, you press the button for that channel (choosing a strategy).
+- If a new channel comes, you can just add a new button without changing how the remote works for the existing channels.
