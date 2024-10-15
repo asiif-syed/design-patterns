@@ -2,7 +2,7 @@ package Factory;
 
 public class NotificationFactory {
 
-    public Notification createNotification(NotificationType notificationType){
+    public static Notification createNotification(NotificationType notificationType){
         switch (notificationType){
             case EMAIL_NOTIFICATION:
                 return new EmailNotification();
