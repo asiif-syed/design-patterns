@@ -7,6 +7,12 @@ public class TranslationRequest {
     private String targetLanguage; // The target language for the translation
     private Double confidenceThreshold; // The confidence threshold for the translation
 
+    public TranslationRequest(String text, String sourceLanguage, String targetLanguage, Double confidenceThreshold ){
+        this.text = text;
+        this.sourceLanguage = sourceLanguage;
+        this.targetLanguage = targetLanguage;
+        this.confidenceThreshold = confidenceThreshold;
+    }
     public String getText(){
         return this.text;
     }
